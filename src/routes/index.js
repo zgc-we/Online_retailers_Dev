@@ -30,7 +30,6 @@ import CSSAnimate from './UI/CSSAnimate';
 import Alerts from './UI/Alerts';
 import Button from './UI/Button';
 import CRUD from './Business/CRUD';
-import PageHome from './PageHome';
 
 /**
  * 主路由配置
