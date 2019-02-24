@@ -18,8 +18,10 @@ class Roots extends Component {
         return (
             <div>
                 <Header />
-                {/* {this.props.children} */}
-                {/* <Footer /> */}
+                <div style={{minHeight: '500px'}}>
+                    {this.props.children}
+                </div>
+                <Footer />
             </div>
         );
     }

@@ -15,7 +15,7 @@
     "url": "https://github.com/jianhui1012/bookreader.git"
   },
   "dependencies": {
-    "antd": "^2.13.6",
+    "antd": "^3.13.4",
     "babel-runtime": "^6.26.0",
     "github-markdown-css": "^2.4.0",
     "immutable": "^3.8.1",

@@ -29,13 +29,55 @@
     }
     .he_box{
         width: 100%;
-        background: #f1eeed;
-        height: 100px;
-        border-top: 1px solid #ddd;
+        background: #fff;
+        height: 140px;
+        padding-top: 20px;
         .he_box_c{
             width: 1200px;
-            height: 100px;
+            height: 120px;
             margin: 0 auto;
+            .header-vip{
+                height: 120px;
+                line-height: 120px;
+                font-size: 14px;
+                .font_sty{
+                    color: #f10180;
+                    font-size: 24px;
+                }
+                .c-category-search{
+                    border: 1px solid #f10180;
+                    border-radius: 0px;
+                }
+                .c-category-search_btn{
+                    border: 1px solid #f10180;
+                    border-radius: 0px;
+                    background: #f10180;
+                    width: 60px;
+                }
+                .shop_box {
+                    border: 1px solid #f10180;
+                    color: #aaa;
+                    background: #eee;
+                    i{
+                        color: #f10180;
+                        font-size: 20px;
+                    }
+                    .shop_span{
+                        display: inline-block;
+                        margin: 0 5px;
+                        background: #f10180;
+                        height: 22px;
+                        width: 30px;
+                        border-radius: 12px;
+                        color: #fff;
+                    }
+                }
+            }
         }
+    }
+    .nav_box{
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
     }
 }

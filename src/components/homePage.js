@@ -161,63 +161,68 @@ class Home extends Component {
 
     render() {
         const {home} = this.props;
-        return <div className="page-home">
-            <section className="container content"> 
-                <div className="content-left">
-                    <div className="category">
-                        <CategoryList title="男生" categoryList={home.tagsState ? home.tags.male : []}/>
-                        <CategoryList title="女生" categoryList={home.tagsState ? home.tags.female : []}/>
-                        <CategoryList title="出版" categoryList={home.tagsState ? home.tags.press : []}/>
-                    </div>
-                    <RankList title="排行榜" rankList={home.chartsDetailBooks}/>
-                </div>
-                <div className="content-right">
-                    <div className="banner" style={{marginBottom: 35}}>
-                        {home.spreadData.length > 0 ?
-                            <Carousel accessibility arrows centerMode autoplay>
-                                {home.spreadData.map((value, index) => {
-                                    return <div onClick={() => {
-                                        browserHistory.push({
-                                            pathname: '/book',
-                                            query: {bookId: value.link},
-                                        });
-                                    }} key={index}><img src={value.img}/></div>
-                                })}
-                            </Carousel> : null}
-                    </div>
-                    {home.nodes.length === 0 ? null :
-                        <RecommandList title={home.nodes[0].title} recommandList={home.nodes[0].books}/>}
-                    {home.nodes.length === 0 ? null :
-                        <RecommandList title={home.nodes[1].title} recommandList={home.nodes[1].books}/>}
-                    {home.nodes.length === 0 ? null :
-                        <RecommandList title={home.nodes[2].title} recommandList={home.nodes[2].books}/>}
-                    {home.nodes.length === 0 ? null :
-                        <RecommandList title={home.nodes[3].title} recommandList={home.nodes[3].books}/>}
-                </div>
-            </section>
-            <section className="container">
-                <div className="hot-items">
-                    {home.spreadData.length > 0 ? home.spreadData.map((value, index) => {
-                        let hotItemClass = "hot-item hot-item-first";
-                        if (index === 1) {
-                            hotItemClass = "hot-item";
-                        } else if (index === 2) {
-                            hotItemClass = "hot-item hot-item-last";
-                        }
-                        return <a key={index} onClick={() => {
-                            browserHistory.push({
-                                pathname: '/book',
-                                query: {bookId: value.link},
-                            });
-                        }} className={hotItemClass}>
-                            <img src={value.img}/>
-                        </a>;
-                    }) : null}
-                </div>
-            </section>
-            <section className="container"/>
-            <BackTop />
-        </div>;
+        return (
+            <div className="page-home">
+                1111111111111111111111111111111111111
+                {/* <div className="page-home">
+                    <section className="container content"> 
+                        <div className="content-left">
+                            <div className="category">
+                                <CategoryList title="男生" categoryList={home.tagsState ? home.tags.male : []}/>
+                                <CategoryList title="女生" categoryList={home.tagsState ? home.tags.female : []}/>
+                                <CategoryList title="出版" categoryList={home.tagsState ? home.tags.press : []}/>
+                            </div>
+                            <RankList title="排行榜" rankList={home.chartsDetailBooks}/>
+                        </div>
+                        <div className="content-right">
+                            <div className="banner" style={{marginBottom: 35}}>
+                                {home.spreadData.length > 0 ?
+                                    <Carousel accessibility arrows centerMode autoplay>
+                                        {home.spreadData.map((value, index) => {
+                                            return <div onClick={() => {
+                                                browserHistory.push({
+                                                    pathname: '/book',
+                                                    query: {bookId: value.link},
+                                                });
+                                            }} key={index}><img src={value.img}/></div>
+                                        })}
+                                    </Carousel> : null}
+                            </div>
+                            {home.nodes.length === 0 ? null :
+                                <RecommandList title={home.nodes[0].title} recommandList={home.nodes[0].books}/>}
+                            {home.nodes.length === 0 ? null :
+                                <RecommandList title={home.nodes[1].title} recommandList={home.nodes[1].books}/>}
+                            {home.nodes.length === 0 ? null :
+                                <RecommandList title={home.nodes[2].title} recommandList={home.nodes[2].books}/>}
+                            {home.nodes.length === 0 ? null :
+                                <RecommandList title={home.nodes[3].title} recommandList={home.nodes[3].books}/>}
+                        </div>
+                    </section>
+                    <section className="container">
+                        <div className="hot-items">
+                            {home.spreadData.length > 0 ? home.spreadData.map((value, index) => {
+                                let hotItemClass = "hot-item hot-item-first";
+                                if (index === 1) {
+                                    hotItemClass = "hot-item";
+                                } else if (index === 2) {
+                                    hotItemClass = "hot-item hot-item-last";
+                                }
+                                return <a key={index} onClick={() => {
+                                    browserHistory.push({
+                                        pathname: '/book',
+                                        query: {bookId: value.link},
+                                    });
+                                }} className={hotItemClass}>
+                                    <img src={value.img}/>
+                                </a>;
+                            }) : null}
+                        </div>
+                    </section>
+                    <section className="container"/>
+                    <BackTop />
+                </div> */}
+            </div>
+        )
     }
 }
 
