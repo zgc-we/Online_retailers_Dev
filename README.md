@@ -1,8 +1,7 @@
 
-项目介绍
-============
+# 项目介绍
 
-# bookreader
+## bookreader
 
 **项目主要目的为了深入学习react，使用redux搭建整个项目。**
 
