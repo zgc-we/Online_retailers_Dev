@@ -32,5 +32,5 @@ npm run dev
 ## 项目地址
 
 ```
-[github地址](https://github.com/jianhui1012/bookreader.git)
+[文字](https://github.com/jianhui1012/bookreader.git)
 ```
