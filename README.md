@@ -18,7 +18,6 @@ react + redux + react-router + antd + webpack
 ## 项目运行
 
 ```
-here https://github.com/jianhui1012/bookreader.git
 git clone https://github.com/jianhui1012/bookreader.git
 
 cd bookreader
@@ -30,4 +29,8 @@ npm run dev
 访问: http://localhost:8088
 
 ```
+## 项目地址
 
+```
+[github地址](https://github.com/jianhui1012/bookreader.git)
+```
