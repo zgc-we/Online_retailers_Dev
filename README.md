@@ -56,7 +56,7 @@ npm run dev
 第一个头的第一个单元|第二个头的第一个单元|123
 第一个头的第二个单元|第二个头的第二个单元|456
 
-## 添加音乐
+## banner图片展示
 
 ![图片](https://github.com/zgc-we/SystemDevelop/blob/master/src/public/images/banner2.jpg)
 
