@@ -1,5 +1,5 @@
 ```
-项目介绍
+#项目介绍
 ```
 
 # bookreader
@@ -34,3 +34,8 @@ npm run dev
 ```
 [文字](https://github.com/jianhui1012/bookreader.git)
 ```
+
+## 项目介绍
+*我的前面有个点
+
+格式：*    文字
