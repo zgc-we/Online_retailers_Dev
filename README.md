@@ -57,7 +57,6 @@ npm run dev
 第一个头的第二个单元|第二个头的第二个单元|456
 
 ## 添加音乐
-```
-<div align=center><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http:xxx.mp3?type=2&id=30375691&auto=1&height=66"></iframe></div>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=430 height=86 src="http:xxx.mp3?type=2&id=114389&auto=1&height=66"></iframe>
-```
+
+![图片](http://structr.learn-anything.cn/[Neo4jArticle]with%E7%94%A8%E6%B3%95.png)
+
