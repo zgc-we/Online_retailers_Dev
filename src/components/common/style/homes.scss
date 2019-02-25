@@ -1,0 +1,39 @@
+.page_banner{
+    width: 100%;
+    height: 500px;
+    background: url('../../../public/images/banner1.jpg') no-repeat;
+    background-size: 100%;
+    .banner{
+        width: 1200px;
+        margin: 0 auto;
+        ul{
+            padding-top: 36px;
+            position: relative;
+            height: 485px;
+            li{
+                position: absolute;
+                padding: 20px;
+                background: #fff;
+                border: 1px solid #ddd;
+            }
+            .li_active{
+                z-index: 1;
+                opacity: 1;
+                transition: opacity 2s;
+            }
+            .li_leve{
+                z-index: 0;
+                opacity: 0.5;
+                transition: opacity 2s;
+            }
+        }
+        .b_tab{
+            line-height: 38px;
+            text-align: center;
+        }
+        .b_tab:hover{
+            border-bottom: 2px solid #f10180;
+            font-weight: 600px;
+        }
+    }
+}

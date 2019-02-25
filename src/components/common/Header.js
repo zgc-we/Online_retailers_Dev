@@ -36,7 +36,6 @@ class Header extends Component {
             let dataIndex = this.state.navData.findIndex((value, index, arr) => {
                 return value.href == location.pathname;
             });
-            console.log(dataIndex, "dataIndex")
             this.setState({currentIndex: dataIndex});
         })
     }
